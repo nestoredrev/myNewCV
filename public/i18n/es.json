@@ -1,0 +1,98 @@
+{
+    "cv": {
+        "presentation": "Hey 👋 Yo soy Nestor Edrev",
+        "description": "Soy de Bulgaria y vivo en España desde 2002. Me gradue en la Universidad Miguel Hernéndez de Elche en Grado en Ingenería Informática en tecnologías de la Información. Mi pasión es el desarrollo web con las tecnologias Angular, Ionic y Nodejs.",
+        "education":{
+            "header": "Educación & Certificados! 📜",
+            "subheader": "Echar un vistazo a mi historial educativo!",
+            "title0":{
+                "name": "Grado en Ingeniería Informática en Tecnologías de la Información",
+                "place": "Universidad Miguel Hernández de Elche",
+                "period": "2012 - 2017"
+            },
+            "title1":{
+                "name": "Ciclo Formativo de Grado Superior de Desarrollo de productos electrónicos",
+                "place": "IES El Palmeral Orihuela",
+                "period": "2010 - 2012"
+            },
+            "title2":{
+                "name": "Ciclo Formativo de Grado Medio de Mantenimiento de productos electrónicos",
+                "place": "IES El Palmeral Orihuela",
+                "period": "2008 - 2010"
+            }
+        },
+        "certification":{
+            "titleLink": "Información sobre el curso y el código realizado en los siguientes enlances:",
+            "title0":{
+                "linkUdemy": "https://www.udemy.com/course/angular-pro-siguiente-nivel/",
+                "linkGithub": "https://github.com/nestoredrev/PokemonSSR/"
+            },
+            "title1":{
+                "linkUdemy": "https://www.udemy.com/course/angular-nest-openai/",
+                "linkGithub": "https://github.com/nestoredrev/BackEnd-OpenAI/"
+            },
+            "title2":{
+                "linkUdemy": "https://www.udemy.com/course/rxjs-nivel-pro/",
+                "linkGithub": "https://github.com/nestoredrev/Rxjs-School/"
+            },
+            "title3":{
+                "linkUdemy": "https://www.udemy.com/course/node-de-cero-a-experto/",
+                "linkGithub": "https://github.com/nestoredrev/socket-chat-backend/"
+            },
+            "title4":{
+                "linkUdemy": "https://www.udemy.com/course/angular-2-fernando-herrera/",
+                "linkGithub": "https://github.com/nestoredrev/AdminPro-Angular/"
+            },
+            "title5":{
+                "linkUdemy": "https://www.udemy.com/course/angular-avanzado-fernando-herrera/",
+                "linkGithub": "https://github.com/nestoredrev/AdminPro-Angular/"
+            }
+        },
+        "experience":{
+            "header": "Experiencia 💼",
+            "subheader": "Echar un vistazo a mi experiencia como desarrollador",
+            "job0":{
+                "position": "Desarrollador Front-End con Angular de aplicación web",
+                "placeLink": "https://grupooesia.com/",
+                "place": "Oesia (Murcia, España)",
+                "period": "Julio 2021 - Febrero 2024"
+            },
+            "job1":{
+                "position": "Desarrollador Front-End con Angular de aplicación web",
+                "placeLink": "https://es.nttdata.com/",
+                "place": "Everis (NTT DATA) (Murcia, España)",
+                "period": "Octubre 2020 - Diciembre 2020"
+            },
+            "job2":{
+                "position": "Consultor BI",
+                "placeLink": "https://www.stratebi.com/open-business-intelligence",
+                "place": "Stratebi (Alicante, España)",
+                "period": "Enero 2019 - Octubre 2019"
+            },
+            "job3":{
+                "position": "Desarrollador Full-Stack de aplicación web de gestión para las subcontratas de Orange-Jazztel España",
+                "placeLink": "https://scorpora.eu/",
+                "place": "Scorpora (Orihuela, España)",
+                "period": "Octubre 2017 - Diciembre 2018"
+            },
+            "job4":{
+                "position": "Desarrollador de aplicaciones web y apoyo al Servicio de Comunicación",
+                "placeLink": "https://www.umh.es/",
+                "place": "Universidad Miguel Hernández de Elche",
+                "period": "Marzo 2016 - Julio 2017"
+            },
+            "job5":{
+                "position": "Trabajo fin de grado",
+                "placeLink": "https://github.com/nestoredrev/GestionaTuPeluqueria",
+                "place": "Desarrollo de aplicación híbrida para dispositivos móviles orientada en el sector de peluquería y estética. Desarrollo realizado con las tecnologías: Ionic, AngularJS, PHP y MySQL",
+                "period": "Octubre 2016 - Julio 2017"
+            },
+            "job6":{
+                "position": "Developer intern of Native Application for iOS and Smart TV",
+                "placeLink": "https://airenetworks.es/",
+                "place": "Aire Networks (Elche, España)",
+                "period": "Julio 2015 - Octubre 2015"
+            }
+        } 
+    }
+}

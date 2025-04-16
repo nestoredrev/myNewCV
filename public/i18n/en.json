@@ -1,0 +1,98 @@
+{
+    "cv": {
+        "presentation": "Hey 👋 I am Nestor Edrev",
+        "description": "I am from Bulgaria but I live in Spain since 2002. I have a degree in Computer Engineering and Information Technologies (2017) in the Miguel Hernández University. My passion is the web development with tecnologies like Angular, Ionic and Nodejs.",
+        "education":{
+            "header": "Education & Certifications! 📜",
+            "subheader": "See my education history!",
+            "title0":{
+                "name": "Bachelor's in Computer Engineering in Information Technologies",
+                "place": "Miguel Hernández University of Elche Spain",
+                "period": "2012 - 2017"
+            },
+            "title1":{
+                "name": "Certificate of Higher Education of development of electronics products",
+                "place": "Secondary School IES El Palmeral Orihuela Spain",
+                "period": "2010 - 2012"
+            },
+            "title2":{
+                "name": "Vocational Education and Training of support of electronics products",
+                "place": "Secondary School IES El Palmeral Orihuela Spain",
+                "period": "2008 - 2010"
+            }
+        },
+        "certification":{
+            "titleLink": "Information about the course and the code made in the following links:",
+            "title0":{
+                "linkUdemy": "https://www.udemy.com/course/angular-pro-siguiente-nivel/",
+                "linkGithub": "https://github.com/nestoredrev/PokemonSSR/"
+            },
+            "title1":{
+                "linkUdemy": "https://www.udemy.com/course/angular-nest-openai/",
+                "linkGithub": "https://github.com/nestoredrev/BackEnd-OpenAI/"
+            },
+            "title2":{
+                "linkUdemy": "https://www.udemy.com/course/rxjs-nivel-pro/",
+                "linkGithub": "https://github.com/nestoredrev/Rxjs-School/"
+            },
+            "title3":{
+                "linkUdemy": "https://www.udemy.com/course/node-de-cero-a-experto/",
+                "linkGithub": "https://github.com/nestoredrev/socket-chat-backend/"
+            },
+            "title4":{
+                "linkUdemy": "https://www.udemy.com/course/angular-2-fernando-herrera/",
+                "linkGithub": "https://github.com/nestoredrev/AdminPro-Angular/"
+            },
+            "title5":{
+                "linkUdemy": "https://www.udemy.com/course/angular-avanzado-fernando-herrera/",
+                "linkGithub": "https://github.com/nestoredrev/AdminPro-Angular/"
+            }
+        },
+        "experience":{
+            "header": "Experience 💼",
+            "subheader": "See my experience as a developer!",
+            "job0":{
+                "position": "Angular Front-End web developer",
+                "placeLink": "https://grupooesia.com/",
+                "place": "Oesia (Murcia, España)",
+                "period": "July 2021 - February 2024"
+            },
+            "job1":{
+                "position": "Angular Front-End web developer",
+                "placeLink": "https://es.nttdata.com/",
+                "place": "Everis (NTT DATA) (Murcia, Spain)",
+                "period": "October 2020 - December 2020"
+            },
+            "job2":{
+                "position": "BI Consultant",
+                "placeLink": "https://www.stratebi.com/open-business-intelligence",
+                "place": "Stratebi (Alicante, Spain)",
+                "period": "January 2019 - October 2019"
+            },
+            "job3":{
+                "position": "Full-Stack developer of management web application for subcontractors of Orange-Jazztel Spain",
+                "placeLink": "https://scorpora.eu/",
+                "place": "Scorpora (Orihuela, Spain)",
+                "period": "October 2017 - December 2018"
+            },
+            "job4":{
+                "position": "Developer of web applications and support to the Communication Service",
+                "placeLink": "https://www.umh.es/",
+                "place": "Miguel Hernández University of Elche Spain",
+                "period": "March 2016 - July 2017"
+            },
+            "job5":{
+                "position": "End of degree project",
+                "placeLink": "https://github.com/nestoredrev/GestionaTuPeluqueria",
+                "place": "Development of hybrid application for mobile devices oriented in the sector of hairdressing and aesthetics. Development with technologies: Ionic, AngularJS, PHP and MySQL",
+                "period": "October 2016 - July 2017"
+            },
+            "job6":{
+                "position": "Developer intern of Native Application for iOS and Smart TV",
+                "placeLink": "https://airenetworks.es/",
+                "place": "Aire Networks (Elche, Spain)",
+                "period": "July 2015 - October 2015"
+            }
+        } 
+    }
+}

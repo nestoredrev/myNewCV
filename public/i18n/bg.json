@@ -1,0 +1,98 @@
+{
+    "cv": {
+        "presentation": "Хей 👋 Аз съм Нестор Едрев",
+        "description": "Аз съм от България и живея в Испания от 2002 г. Завършил съм университета Мигел Ернендес в Елче със степен по компютърно инженерство в информационните технологии. Моята страст е уеб разработката с технологии Angular, Ionic и Nodejs.",
+        "education":{
+            "header": "Образование & Сертификати! 📜",
+            "subheader": "Вижте историята на образованието ми!",
+            "title0":{
+                "name": "Бакалавър по информационни технологии",
+                "place": "Университета Мигел Ернандес в Elche",
+                "period": "2012 - 2017"
+            },
+            "title1":{
+                "name": "Техникум по разработка на електронни продукти",
+                "place": "Cредно Общообразователно Училище IES El Palmeral Orihuela",
+                "period": "2010 - 2012"
+            },
+            "title2":{
+                "name": "Техникум по поддръжка на електронни продукти",
+                "place": "Cредно Общообразователно Училище IES El Palmeral Orihuela",
+                "period": "2008 - 2010"
+            }
+        },
+        "certification":{
+            "titleLink": "Информация за курса и кода направени в следните линкове:",
+            "title0":{
+                "linkUdemy": "https://www.udemy.com/course/angular-pro-siguiente-nivel/",
+                "linkGithub": "https://github.com/nestoredrev/PokemonSSR/"
+            },
+            "title1":{
+                "linkUdemy": "https://www.udemy.com/course/angular-nest-openai/",
+                "linkGithub": "https://github.com/nestoredrev/BackEnd-OpenAI/"
+            },
+            "title2":{
+                "linkUdemy": "https://www.udemy.com/course/rxjs-nivel-pro/",
+                "linkGithub": "https://github.com/nestoredrev/Rxjs-School/"
+            },
+            "title3":{
+                "linkUdemy": "https://www.udemy.com/course/node-de-cero-a-experto/",
+                "linkGithub": "https://github.com/nestoredrev/socket-chat-backend/"
+            },
+            "title4":{
+                "linkUdemy": "https://www.udemy.com/course/angular-2-fernando-herrera/",
+                "linkGithub": "https://github.com/nestoredrev/AdminPro-Angular/"
+            },
+            "title5":{
+                "linkUdemy": "https://www.udemy.com/course/angular-avanzado-fernando-herrera/",
+                "linkGithub": "https://github.com/nestoredrev/AdminPro-Angular/"
+            }
+        },
+        "experience":{
+            "header": "Опит 💼",
+            "subheader": "Вижте моят опит като разработчик",
+            "job0":{
+                "position": "Anglar Front-End Разработчик на уеб апликации",
+                "placeLink": "https://grupooesia.com/",
+                "place": "Oesia (Murcia, Испания)",
+                "period": "Юли 2021 - Февруари 2024"
+            },
+            "job1":{
+                "position": "Anglar Front-End Разработчик на уеб апликации",
+                "placeLink": "https://es.nttdata.com/",
+                "place": "Everis (NTT DATA) (Murcia, Испания)",
+                "period": "Октомври 2020 - Декември 2020"
+            },
+            "job2":{
+                "position": "БИ Консултант",
+                "placeLink": "https://www.stratebi.com/open-business-intelligence",
+                "place": "Stratebi (Alicante, Испания)",
+                "period": "Януари 2019 - Октомври 2019"
+            },
+            "job3":{
+                "position": "Full-Stack Разработчик на уеб апликация за аднистрация на под испълнители на Orange-Jazztel Испания",
+                "placeLink": "https://scorpora.eu/",
+                "place": "Scorpora (Orihuela, Испания)",
+                "period": "Октомври 2017 - Декември 2018"
+            },
+            "job4":{
+                "position": "Full-Stack Разработчик на уеб апликации и поддръжка на Комуникационните Услуги",
+                "placeLink": "https://www.umh.es/",
+                "place": "Университета Мигел Ернандес в Elche Испания",
+                "period": "Март 2016 - Юли 2017"
+            },
+            "job5":{
+                "position": "Дипломна работа",
+                "placeLink": "https://github.com/nestoredrev/GestionaTuPeluqueria",
+                "place": "Разработка на хибридно приложения за мобилни устройства ориентирано към сектора на фризьорски салони. Технологиите използване за разботката са: Ionic, AngularJS, PHP и MySQL",
+                "period": "Октомври 2016 - Юли 2017"
+            },
+            "job6":{
+                "position": "Стажант разработчик на нативни приложения за iOS и Smart TV",
+                "placeLink": "https://airenetworks.es/",
+                "place": "Aire Networks (Elche, Испания)",
+                "period": "Юли 2015 - Октомври 2015"
+            }
+        } 
+    }
+}
