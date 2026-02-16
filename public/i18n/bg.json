@@ -24,26 +24,30 @@
         "certification":{
             "titleLink": "Информация за курса и кода направени в следните линкове:",
             "title0":{
+                "linkUdemy": "https://www.udemy.com/course/angular-fernando-herrera/",
+                "linkGithub": "https://github.com/nestoredrev/teslo-shop/"
+            },
+            "title1":{
                 "linkUdemy": "https://www.udemy.com/course/angular-pro-siguiente-nivel/",
                 "linkGithub": "https://github.com/nestoredrev/PokemonSSR/"
             },
-            "title1":{
+            "title2":{
                 "linkUdemy": "https://www.udemy.com/course/angular-nest-openai/",
                 "linkGithub": "https://github.com/nestoredrev/BackEnd-OpenAI/"
             },
-            "title2":{
+            "title3":{
                 "linkUdemy": "https://www.udemy.com/course/rxjs-nivel-pro/",
                 "linkGithub": "https://github.com/nestoredrev/Rxjs-School/"
             },
-            "title3":{
+            "title4":{
                 "linkUdemy": "https://www.udemy.com/course/node-de-cero-a-experto/",
                 "linkGithub": "https://github.com/nestoredrev/socket-chat-backend/"
             },
-            "title4":{
+            "title5":{
                 "linkUdemy": "https://www.udemy.com/course/angular-2-fernando-herrera/",
                 "linkGithub": "https://github.com/nestoredrev/AdminPro-Angular/"
             },
-            "title5":{
+            "title6":{
                 "linkUdemy": "https://www.udemy.com/course/angular-avanzado-fernando-herrera/",
                 "linkGithub": "https://github.com/nestoredrev/AdminPro-Angular/"
             }
