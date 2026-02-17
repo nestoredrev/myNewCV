@@ -34,12 +34,9 @@
             <!-- Image -->
             <div class="relative flex justify-center md:justify-end mt-8 md:mt-0">
                 <!-- Círculo más grande para mostrar más zona de la cara -->
-                <div class="w-48 h-48 sm:w-60 sm:h-60 lg:w-72 lg:h-72 rounded-full overflow-hidden shadow-lg ring-4 ring-white/70 dark:ring-gray-700">
-                    <img
-                        src="fotoPerfil.png"
-                        alt="thats me"
-                        class="w-full h-full object-cover object-top"
-                    />
+                <div
+                    class="w-48 h-48 sm:w-60 sm:h-60 lg:w-72 lg:h-72 rounded-full overflow-hidden shadow-lg ring-4 ring-white/70 dark:ring-gray-700">
+                    <img src="fotoPerfil.png" alt="thats me" class="w-full h-full object-cover object-top" />
                 </div>
             </div>
 
@@ -58,39 +55,67 @@
             <div class="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
                 <!-- Education -->
                 @for (title of [0,1,2]; track $index) {
-                    <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
-                        <div class="relative bg-clip-border mt-4 mx-4 bg-white text-gray-700 flex items-center justify-between rounded-none overflow-visible">
-                            <div class="flex flex-col gap-1 w-full">
-                                <p class="block antialiased font-sans text-blue-500 font-bold text-xs">
-                                    {{ 'cv.education.title'+$index+'.period' | translate }}
-                                </p>
-                                <h5 class="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-blue-gray-900 w-full">
-                                    {{ 'cv.education.title'+$index+'.name' | translate }}
-                                </h5>
-                            </div>
-                        </div>
-                        <div class="p-6 grid justify-start !px-3.5 pt-2">
-                            <p class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal !text-gray-500">
-                                {{ 'cv.education.title'+$index+'.place' | translate }}
+                <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
+                    <div
+                        class="relative bg-clip-border mt-4 mx-4 bg-white text-gray-700 flex items-center justify-between rounded-none overflow-visible">
+                        <div class="flex flex-col gap-1 w-full">
+                            <p class="block antialiased font-sans text-blue-500 font-bold text-xs">
+                                {{ 'cv.education.title'+$index+'.period' | translate }}
                             </p>
+                            <h5
+                                class="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-blue-gray-900 w-full">
+                                {{ 'cv.education.title'+$index+'.name' | translate }}
+                            </h5>
                         </div>
                     </div>
+                    <div class="p-6 grid justify-start !px-3.5 pt-2">
+                        <p
+                            class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal !text-gray-500">
+                            {{ 'cv.education.title'+$index+'.place' | translate }}
+                        </p>
+                    </div>
+                </div>
                 }
                 <!-- Certification -->
-                @for (title of [0,1,2,3,4,5]; track $index) {
-                    <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
-                        <div class="relative bg-clip-border mt-4 mx-4 mb-4 bg-white text-gray-700 flex items-center justify-between rounded-none overflow-visible">
-                            <img src=" {{ 'certs/cerf'+$index+'.jpg' }} " class="w-full" alt="">
-                        </div>
-                        <div class="p-6 grid justify-start !px-3.5 pt-2">
-                            <p class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal !text-gray-500">
-                                {{ 'cv.certification.titleLink' | translate }}
-                            </p>
-                            <a href="{{ 'cv.certification.title'+$index+'.linkUdemy' | translate }}" target="_blank">{{ 'cv.certification.title'+$index+'.linkUdemy' | translate }}</a>
-                            <a href="{{ 'cv.certification.title'+$index+'.linkGithub' | translate }}" target="_blank">{{ 'cv.certification.title'+$index+'.linkGithub' | translate }}</a>
-                        </div>
+                <!-- Slider main container -->
+                <div class="swiper" #swiperDiv>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        @for (title of [0,1,2,3,4,5]; track $index) {
+                            <div class="swiper-slide">
+                                <div
+                                    class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
+                                    <div
+                                        class="relative bg-clip-border mt-4 mx-4 mb-4 bg-white text-gray-700 flex items-center justify-between rounded-none overflow-visible">
+                                        <img src=" {{ 'certs/cerf'+$index+'.jpg' }} " class="w-full" alt="">
+                                    </div>
+                                    <div class="p-6 grid justify-start !px-3.5 pt-2">
+                                        <p
+                                            class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal !text-gray-500">
+                                            {{ 'cv.certification.titleLink' | translate }}
+                                        </p>
+                                        <a href="{{ 'cv.certification.title'+$index+'.linkUdemy' | translate }}"
+                                            target="_blank">{{ 'cv.certification.title'+$index+'.linkUdemy' | translate
+                                            }}</a>
+                                        <a href="{{ 'cv.certification.title'+$index+'.linkGithub' | translate }}"
+                                            target="_blank">{{ 'cv.certification.title'+$index+'.linkGithub' | translate
+                                            }}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
                     </div>
-                }
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
             </div>
         </div>
         <div>
@@ -105,20 +130,22 @@
             <div class="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
                 <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
                     @for (experience of [0,1,2,3,4,5,6]; track $index) {
-                        <div
-                            class="relative bg-clip-border mt-4 mx-4 bg-white text-gray-700 flex items-center justify-between rounded-none overflow-visible">
-                            <div class="flex flex-col gap-1 w-full">
-                                <p class="block antialiased font-sans text-blue-500 font-bold text-xs">
-                                    {{ 'cv.experience.job'+$index+'.period' | translate }}
-                                </p>
-                                <h5 class="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-blue-gray-900 w-full">
-                                    {{ 'cv.experience.job'+$index+'.position' | translate }}
-                                </h5>
-                            </div>
+                    <div
+                        class="relative bg-clip-border mt-4 mx-4 bg-white text-gray-700 flex items-center justify-between rounded-none overflow-visible">
+                        <div class="flex flex-col gap-1 w-full">
+                            <p class="block antialiased font-sans text-blue-500 font-bold text-xs">
+                                {{ 'cv.experience.job'+$index+'.period' | translate }}
+                            </p>
+                            <h5
+                                class="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-blue-gray-900 w-full">
+                                {{ 'cv.experience.job'+$index+'.position' | translate }}
+                            </h5>
                         </div>
-                        <div class="p-6 grid justify-start !px-3.5 pt-2">
-                            <a href="{{ 'cv.experience.job'+$index+'.placeLink' | translate }}" target="_blank">{{ 'cv.experience.job'+$index+'.place' | translate }}</a>
-                        </div>
+                    </div>
+                    <div class="p-6 grid justify-start !px-3.5 pt-2">
+                        <a href="{{ 'cv.experience.job'+$index+'.placeLink' | translate }}" target="_blank">{{
+                            'cv.experience.job'+$index+'.place' | translate }}</a>
+                    </div>
                     }
                 </div>
             </div>
